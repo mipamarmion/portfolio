@@ -39,7 +39,11 @@
     "url-loader": "^1.0.1",
     "react-router-dom": "^5.2.0",
     "file-loader": "^3.0.1",
-    "style-loader": "^0.23.0"
+    "style-loader": "^0.23.0",
+    "babel-eslint": "^10.0.0",
+    "concurrently": "^4.0.0",
+    "css-loader": "^2.0.0",
+    "node-fetch": "^2.6.1"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.0",
