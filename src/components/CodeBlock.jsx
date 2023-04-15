@@ -12,10 +12,12 @@ export default class Intro extends Component {
     
     componentDidMount() {
         this.interval = setInterval(() => {
+            var code = this.getCode();
+            
             this.setState({
-                code: this.getCode()
-            })
-        }, 5);
+                code: code
+            });
+        }, 10);
     }
     
     componentWillUnmount() {
