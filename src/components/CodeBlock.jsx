@@ -15,11 +15,11 @@ export default class Intro extends Component {
             this.setState({
                 code: this.getCode()
             })
-        }, 5)
+        }, 5);
     }
     
     componentWillUnmount() {
-        clearInterval(this.interval)
+        clearInterval(this.interval);
     }
 
     getCode() {
@@ -32,7 +32,7 @@ export default class Intro extends Component {
             let index = Math.floor(Math.random() * code.length);
             let replacement = code.charAt(index) === "1" ? "0" : "1";
 
-            code = code.substr(0, index) + replacement + code.substr(index + replacement.length);
+            code = code.substring(0, index) + replacement + code.substring(index + replacement.length);
 
             code += Math.floor(Math.random() * 2);
         }

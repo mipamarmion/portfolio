@@ -4,6 +4,7 @@ import Base from "../Base";
 import NavBar from "../NavBar";
 import CodeBlock from "../CodeBlock";
 import Title from "../Title";
+import LineNumbers from "./LineNumbers";
 import Content from "./Content";
 
 export default class Home extends Component {
@@ -14,6 +15,7 @@ export default class Home extends Component {
                 <CodeBlock />
                 <img src={home} className="absolute h-72 w-72"></img>
                 <Title name="home">
+                    <LineNumbers />
                     <Content />
                 </Title>
             </Base>
