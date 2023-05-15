@@ -16,7 +16,7 @@ export default class ProjectBlock extends Component {
                   <div className="flex"><img class="m-10 w-46 h-36" src={retro}></img></div>
                   <div className="flex p-10 text-xl place-self-center">Open AI Retro Competition</div>
                   <div className="flex p-10 text-m">A simple artificial inteligence that is able to work its way through Sonic the Hedgehog NES original levels.</div>
-                  <div className="flex p-10 text-m"><a className="text-red-500" href="https://s3-us-west-2.amazonaws.com/openai-assets/research-covers/retro-contest/gotta_learn_fast_report.pdf">Program Information</a></div>
+                  <div className="flex p-10 text-m"><a className="text-red-500" href="https://s3-us-west-2.amazonaws.com/openai-assets/research-covers/retro-contest/gotta_learn_fast_report.pdf">Program Information.</a></div>
               </div>
           </aside>
         )
